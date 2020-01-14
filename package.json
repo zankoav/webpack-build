@@ -1,8 +1,11 @@
 {
-    "name": "LwcWebpackBase",
+    "name": "Webpack Build",
     "version": "1.0.0",
     "description": "",
-    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zankoav/webpack-build.git"
+    },
     "scripts": {
         "build-pl": "webpack --env.mode=production --env.lang=pl",
         "build-de": "webpack --env.mode=production --env.lang=de",
